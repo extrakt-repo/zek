@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F222F17018F2144D00C2CBAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F222F16F18F2144D00C2CBAC /* Foundation.framework */; };
+		F222F17218F2144D00C2CBAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F222F17118F2144D00C2CBAC /* CoreGraphics.framework */; };
+		F222F17418F2144D00C2CBAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F222F17318F2144D00C2CBAC /* UIKit.framework */; };
+		F222F17A18F2144D00C2CBAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F222F17818F2144D00C2CBAC /* InfoPlist.strings */; };
+		F222F17C18F2144D00C2CBAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F222F17B18F2144D00C2CBAC /* main.m */; };
+		F222F18018F2144D00C2CBAC /* zekAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F222F17F18F2144D00C2CBAC /* zekAppDelegate.m */; };
+		F222F18218F2144D00C2CBAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F222F18118F2144D00C2CBAC /* Images.xcassets */; };
+		F222F18918F2144D00C2CBAC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F222F18818F2144D00C2CBAC /* XCTest.framework */; };
+		F222F18A18F2144D00C2CBAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F222F16F18F2144D00C2CBAC /* Foundation.framework */; };
+		F222F18B18F2144D00C2CBAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F222F17318F2144D00C2CBAC /* UIKit.framework */; };
+		F222F19318F2144D00C2CBAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F222F19118F2144D00C2CBAC /* InfoPlist.strings */; };
+		F222F19518F2144D00C2CBAC /* zekTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F222F19418F2144D00C2CBAC /* zekTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F222F18C18F2144D00C2CBAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F222F16418F2144D00C2CBAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F222F16B18F2144D00C2CBAC;
+			remoteInfo = zek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F222F16C18F2144D00C2CBAC /* zek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F222F16F18F2144D00C2CBAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F222F17118F2144D00C2CBAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F222F17318F2144D00C2CBAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F222F17718F2144D00C2CBAC /* zek-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zek-Info.plist"; sourceTree = "<group>"; };
+		F222F17918F2144D00C2CBAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F222F17B18F2144D00C2CBAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F222F17D18F2144D00C2CBAC /* zek-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zek-Prefix.pch"; sourceTree = "<group>"; };
+		F222F17E18F2144D00C2CBAC /* zekAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zekAppDelegate.h; sourceTree = "<group>"; };
+		F222F17F18F2144D00C2CBAC /* zekAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zekAppDelegate.m; sourceTree = "<group>"; };
+		F222F18118F2144D00C2CBAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F222F18718F2144D00C2CBAC /* zekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F222F18818F2144D00C2CBAC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F222F19018F2144D00C2CBAC /* zekTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zekTests-Info.plist"; sourceTree = "<group>"; };
+		F222F19218F2144D00C2CBAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F222F19418F2144D00C2CBAC /* zekTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zekTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F222F16918F2144D00C2CBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F222F17218F2144D00C2CBAC /* CoreGraphics.framework in Frameworks */,
+				F222F17418F2144D00C2CBAC /* UIKit.framework in Frameworks */,
+				F222F17018F2144D00C2CBAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F222F18418F2144D00C2CBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F222F18918F2144D00C2CBAC /* XCTest.framework in Frameworks */,
+				F222F18B18F2144D00C2CBAC /* UIKit.framework in Frameworks */,
+				F222F18A18F2144D00C2CBAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F222F16318F2144D00C2CBAC = {
+			isa = PBXGroup;
+			children = (
+				F222F17518F2144D00C2CBAC /* zek */,
+				F222F18E18F2144D00C2CBAC /* zekTests */,
+				F222F16E18F2144D00C2CBAC /* Frameworks */,
+				F222F16D18F2144D00C2CBAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F222F16D18F2144D00C2CBAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F222F16C18F2144D00C2CBAC /* zek.app */,
+				F222F18718F2144D00C2CBAC /* zekTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F222F16E18F2144D00C2CBAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F222F16F18F2144D00C2CBAC /* Foundation.framework */,
+				F222F17118F2144D00C2CBAC /* CoreGraphics.framework */,
+				F222F17318F2144D00C2CBAC /* UIKit.framework */,
+				F222F18818F2144D00C2CBAC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F222F17518F2144D00C2CBAC /* zek */ = {
+			isa = PBXGroup;
+			children = (
+				F222F17E18F2144D00C2CBAC /* zekAppDelegate.h */,
+				F222F17F18F2144D00C2CBAC /* zekAppDelegate.m */,
+				F222F18118F2144D00C2CBAC /* Images.xcassets */,
+				F222F17618F2144D00C2CBAC /* Supporting Files */,
+			);
+			path = zek;
+			sourceTree = "<group>";
+		};
+		F222F17618F2144D00C2CBAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F222F17718F2144D00C2CBAC /* zek-Info.plist */,
+				F222F17818F2144D00C2CBAC /* InfoPlist.strings */,
+				F222F17B18F2144D00C2CBAC /* main.m */,
+				F222F17D18F2144D00C2CBAC /* zek-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F222F18E18F2144D00C2CBAC /* zekTests */ = {
+			isa = PBXGroup;
+			children = (
+				F222F19418F2144D00C2CBAC /* zekTests.m */,
+				F222F18F18F2144D00C2CBAC /* Supporting Files */,
+			);
+			path = zekTests;
+			sourceTree = "<group>";
+		};
+		F222F18F18F2144D00C2CBAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F222F19018F2144D00C2CBAC /* zekTests-Info.plist */,
+				F222F19118F2144D00C2CBAC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F222F16B18F2144D00C2CBAC /* zek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F222F19818F2144D00C2CBAC /* Build configuration list for PBXNativeTarget "zek" */;
+			buildPhases = (
+				F222F16818F2144D00C2CBAC /* Sources */,
+				F222F16918F2144D00C2CBAC /* Frameworks */,
+				F222F16A18F2144D00C2CBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zek;
+			productName = zek;
+			productReference = F222F16C18F2144D00C2CBAC /* zek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F222F18618F2144D00C2CBAC /* zekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F222F19B18F2144D00C2CBAC /* Build configuration list for PBXNativeTarget "zekTests" */;
+			buildPhases = (
+				F222F18318F2144D00C2CBAC /* Sources */,
+				F222F18418F2144D00C2CBAC /* Frameworks */,
+				F222F18518F2144D00C2CBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F222F18D18F2144D00C2CBAC /* PBXTargetDependency */,
+			);
+			name = zekTests;
+			productName = zekTests;
+			productReference = F222F18718F2144D00C2CBAC /* zekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F222F16418F2144D00C2CBAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = zek;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = exTrakt;
+				TargetAttributes = {
+					F222F18618F2144D00C2CBAC = {
+						TestTargetID = F222F16B18F2144D00C2CBAC;
+					};
+				};
+			};
+			buildConfigurationList = F222F16718F2144D00C2CBAC /* Build configuration list for PBXProject "zek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F222F16318F2144D00C2CBAC;
+			productRefGroup = F222F16D18F2144D00C2CBAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F222F16B18F2144D00C2CBAC /* zek */,
+				F222F18618F2144D00C2CBAC /* zekTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F222F16A18F2144D00C2CBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F222F17A18F2144D00C2CBAC /* InfoPlist.strings in Resources */,
+				F222F18218F2144D00C2CBAC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F222F18518F2144D00C2CBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F222F19318F2144D00C2CBAC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F222F16818F2144D00C2CBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F222F17C18F2144D00C2CBAC /* main.m in Sources */,
+				F222F18018F2144D00C2CBAC /* zekAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F222F18318F2144D00C2CBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F222F19518F2144D00C2CBAC /* zekTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F222F18D18F2144D00C2CBAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F222F16B18F2144D00C2CBAC /* zek */;
+			targetProxy = F222F18C18F2144D00C2CBAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F222F17818F2144D00C2CBAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F222F17918F2144D00C2CBAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F222F19118F2144D00C2CBAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F222F19218F2144D00C2CBAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F222F19618F2144D00C2CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F222F19718F2144D00C2CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F222F19918F2144D00C2CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zek/zek-Prefix.pch";
+				INFOPLIST_FILE = "zek/zek-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F222F19A18F2144D00C2CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zek/zek-Prefix.pch";
+				INFOPLIST_FILE = "zek/zek-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F222F19C18F2144D00C2CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/zek.app/zek";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zek/zek-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "zekTests/zekTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F222F19D18F2144D00C2CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/zek.app/zek";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zek/zek-Prefix.pch";
+				INFOPLIST_FILE = "zekTests/zekTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F222F16718F2144D00C2CBAC /* Build configuration list for PBXProject "zek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F222F19618F2144D00C2CBAC /* Debug */,
+				F222F19718F2144D00C2CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F222F19818F2144D00C2CBAC /* Build configuration list for PBXNativeTarget "zek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F222F19918F2144D00C2CBAC /* Debug */,
+				F222F19A18F2144D00C2CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F222F19B18F2144D00C2CBAC /* Build configuration list for PBXNativeTarget "zekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F222F19C18F2144D00C2CBAC /* Debug */,
+				F222F19D18F2144D00C2CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F222F16418F2144D00C2CBAC /* Project object */;
+}
